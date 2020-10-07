@@ -14,8 +14,6 @@ body {
     background-color: #000;
     font-family: 'Arsenal', sans-serif;
     color: #FDFFF3;
-    margin: 0;
-    padding: 0;
 }
 .header {
     display: flex;

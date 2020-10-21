@@ -134,11 +134,15 @@ body {
 .offer:not(:last-child) {
     margin-bottom: 113px;
 }
+.offer-title {
+    padding-bottom: 20px;
+}
 .offer-description {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 10px 10px;
+    align-items: center;
 }
 
 .popular {
@@ -153,7 +157,7 @@ body {
     font-size: 96px;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 .drinks {
     display: flex;

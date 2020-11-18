@@ -196,6 +196,9 @@ body {
     font-size: 2.5rem;
     padding: 2.5rem 0;
  }
+ .food {
+     display: none;
+ }
 .bar-menu {
     display: flex;
     flex-direction: column;
@@ -281,11 +284,15 @@ body {
 .footer-social-item:not(:first-child) {
     margin-left: 4rem;
 }
+.footer-information-mobile {
+    display: none;
+}
 
 @media (max-width: 720px) {
   
     body {
       max-width: 72rem;
+      min-width: 32rem;
     }
     .nav-menu {
         display: none;
@@ -329,8 +336,85 @@ body {
     .button-mobile--bar-menu, .button-mobile--main-menu {
         padding: 1rem 0;
         width: 25rem;
+        margin-left: auto;
+        margin-right: auto;
     }
     [class^="linebreak"] {
         display: block;
         font-size: 1.6rem;
+    }
+    .special {
+        display: none;
+    }
+    .popular {
+        background-image: none;
+    }
+    .popular-title {
+        display: none;
+    }
+    .popular-box {
+        margin: 0 5rem;
+    }
+    .drink {
+        display: none;
+    }
+    .drink-mobile {
+        display: inline-block;
+        max-width: 30%;
+    }
+    .drink-name {
+        text-align: center;
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    .food {
+        display: block;
+    }
+    .meal{
+        margin-top: 5rem;
+        background-color: #fff;
+        color: #000;
+        text-transform: uppercase;
+        box-sizing: content-box;
+    }
+    .meal-img {
+        width: 100%;
+    }
+    .meal-name {
+        font-size: 2rem;
+        padding: 2.5rem 0;
+        text-align: center;
+    }
+    .bar {
+        display: none;
+    }
+    .map {
+        display: none;
+    }
+    .footer-logo{
+        display: none;
+    }
+    .footer-menu{
+        display: none;
+    }
+    .footer-information{
+        display: none;
+    }
+    .footer-information-mobile {
+        display: flex;
+        flex-direction: column;
+        font-size: 2.5rem;
+        justify-content: space-between;
+        align-items: center;
+        text-transform: uppercase;
+    }
+    .adress-mobile, .time-mobile, .tel-mobile {
+        margin-bottom: 4rem;
+    }
+    .footer-social-item {
+        width: 5rem;
+        height: 5rem;
+    }
+    [class^="social-item"]:not(:first-child) {
+        margin-left: 8rem;
     }

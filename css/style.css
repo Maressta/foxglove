@@ -419,13 +419,55 @@ body {
         margin-left: 8rem;
     }
 
-
     @media (max-width: 480px) {
 
     body {
         max-width: 48rem;
         min-width: 32rem;
       }
+      .main-banner {
+          padding: 5rem 3rem;
+      }
+      [class^="button"] {
+          font-size: 2rem;
+          text-align: center;
+      }
+      .button-reserve, .button-mobile--adress {
+          padding: 1rem 4rem;
+      }
+      .button-mobile--bar-menu, .button-mobile--main-menu {
+          padding: 1rem 0;
+          width: 25rem;
+      }
+      .drink-name {
+          font-size: 1.5rem;
+          padding: 1rem;
+      }
+      .food {
+          display: block;
+      }
+      .meal-name {
+          font-size: 1.5rem;
+          padding: 2rem 0;
+      }
+      .drinks {
+          margin-top: 0rem;
+      }
+      .drink:nth-child(odd) {
+          margin-top: 10rem;
+      }
+      .drink:nth-child(even) {
+          margin-bottom: 10rem;
+      }
+      .footer-information-mobile {
+          font-size: 1.5rem;
+      }
+      .footer-social-item {
+          width: 4rem;
+          height: 4rem;
+      }
+      [class^="social-item"]:not(:first-child) {
+          margin-left: 5rem;
+      }
 
     }
-  

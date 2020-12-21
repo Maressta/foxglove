@@ -418,3 +418,14 @@ body {
     [class^="social-item"]:not(:first-child) {
         margin-left: 8rem;
     }
+
+
+    @media (max-width: 480px) {
+
+    body {
+        max-width: 48rem;
+        min-width: 32rem;
+      }
+
+    }
+  

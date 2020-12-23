@@ -307,7 +307,7 @@ body {
         background-image: url(../img/banner-mobile.jpg);
         background-repeat: no-repeat;
         background-position: center center;
-        padding: 6rem 9rem;
+        padding: 6rem 5rem;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -328,9 +328,11 @@ body {
         font-size: 3.5rem;
         text-align: center;
         margin-bottom: 8rem;
+        margin-left: auto;
+        margin-right: auto;
     }
     .button-reserve, .button-mobile--adress {
-        width: 53rem;
+        width: 56rem;
         padding: 1.5rem 6rem;
     }
     .button-mobile--bar-menu, .button-mobile--main-menu {
@@ -418,6 +420,36 @@ body {
     [class^="social-item"]:not(:first-child) {
         margin-left: 8rem;
     }
+    .footer {
+        background-image: url(../img/footer-mobile.jpg);
+        background-repeat: no-repeat;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    @media (max-width: 599px) {    
+        
+          .button-reserve, .button-mobile--adress {
+            height: auto;
+          }
+
+        .button-mobile--bar-menu, .button-mobile--main-menu {
+            width: 56rem;
+            padding: 1.5rem 6rem;
+        }
+        
+        [class^="linebreak"] {
+            display: inline;
+        }
+        
+        .linebreak_google-maps {
+            display: block;
+            font-size: 1.25rem;
+        }
+
+        linebreak_google-maps
+
+    }
 
     @media (max-width: 480px) {
 
@@ -435,10 +467,11 @@ body {
       .button-reserve, .button-mobile--adress {
           padding: 1rem 4rem;
       }
+      /* 
       .button-mobile--bar-menu, .button-mobile--main-menu {
           padding: 1rem 0;
           width: 25rem;
-      }
+      } */
       .drink-name {
           font-size: 1.5rem;
           padding: 1rem;
